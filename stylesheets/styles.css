@@ -33,9 +33,9 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#333333;
+  color:#011F5B;
   font-weight:400;
-  text-decoration:underline;
+  text-decoration:none;
 }
 
 a small {
@@ -43,6 +43,10 @@ a small {
   color:#011F5B;
   margin-top:-0.6em;
   display:block;
+}
+
+a:hover {
+  text-decoration:underline;
 }
 
 .wrapper {
